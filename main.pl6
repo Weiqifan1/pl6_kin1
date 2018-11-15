@@ -5,4 +5,15 @@ v6;
 # 1: find de rå kinesisk dictionary filer og laven dictionary.
 # 2: tag et subset af filerne, lav en lille dictionary, serialiser og deserialiser dem
 
-say "hello perl"
+use lib 'setupFolder';
+use readCedict;
+
+say 'start perl';
+
+my $output = chr5('her kommer tekst');
+say $output;
+
+
+say 'end';
+
+
